@@ -30,13 +30,6 @@
     display: flex;
 }
 
-/* Generics  */
-
-li {
-    display: inline-block;
-    padding-right: 10px;
-}
-
 .small-column {
     flex-basis: calc(100% / 3);
     background-color: var(--color-pink);
@@ -52,6 +45,14 @@ li {
     background-color: var(--color-blue);
 }
 
+/* Generics  */
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
 /* Header */
 
 a {
@@ -62,7 +63,6 @@ header {
     width: 100%;
     min-height: 50px;
     background-color: #daa520;
-    border: 2px dashed black;
     justify-content: space-between;
     align-items: center;
 }
@@ -76,6 +76,12 @@ header {
 #logo {
     padding-left: 10px;
     flex-basis: calc(100% / 4);
+}
+
+header > div {
+    min-height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 .nav-bar {
