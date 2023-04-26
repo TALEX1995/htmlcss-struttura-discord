@@ -102,17 +102,22 @@ ul {
 }
 
 .bkg-first-section {
-    background-color: #00008b;
-    padding: 40px 0px;
+    background-color: #00008b; 
 }
 
-.bkg-second-section {
+.bkg-second-section, .bkg-fourth-section {
     background-color: white;
-    padding: 40px 0px;
 }
 
-.bkg-third-section {
+.bkg-third-section, .bkg-fifth-section {
     background-color: var(--color-grey);
-    padding: 40px 0px;
 }
 
+main > div {
+    padding: 40px 0;
+}
+
+.fifth-section {
+    min-height: 700px;
+    background-color: #228b22;
+}
