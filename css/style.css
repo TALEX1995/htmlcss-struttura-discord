@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+
+/* Properties */
+
+:root {
+    --color-blue: #1e90ff;
+    --color-pink: #ffc0cb;
+}
+
 /* Utilities */
 
 .inline-block {
@@ -47,6 +55,7 @@ header {
 .header-container {
     min-height: 80px;
     background-color: #add8e6;
+    padding: 20px 0;
 }
 
 #logo {
@@ -66,4 +75,19 @@ header {
 ul {
     justify-content: center;
 }
+
+/* Main */
+
+.first-section {
+    height: 400px;
+    background-color: #ee82ee;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bkg-first-section {
+    background-color: #00008b;
+    padding: 40px 0px;
+}
+
 
