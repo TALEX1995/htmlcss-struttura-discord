@@ -16,8 +16,8 @@
 
 /* Utilities */
 
-.inline-block {
-    display: inline-block;
+.border2px {
+    border: 2px dashed black;
 }
 
 .container {
@@ -83,6 +83,7 @@ ul {
     background-color: #ee82ee;
     width: 800px;
     margin: 0 auto;
+    border: 2px dashed black;
 }
 
 .bkg-first-section {
@@ -90,4 +91,26 @@ ul {
     padding: 40px 0px;
 }
 
+.bkg-second-section {
+    background-color: white;
+    padding: 40px 0px;
+}
 
+.second-section {
+    display: flex;
+    min-height: 500px;
+}
+
+.second-section div:first-child {
+    min-height: 500px;
+    flex-basis: calc(100% / 3 * 2);
+    background-color: var(--color-blue);
+    
+}
+
+.second-section div:last-child {
+    min-height: 500px;
+    flex-basis: calc(100% / 3);
+    background-color: var(--color-pink);
+}
+    
