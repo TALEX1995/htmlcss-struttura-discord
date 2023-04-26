@@ -1,0 +1,55 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.inline-block {
+    display: inline-block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Generics  */
+
+li {
+    display: inline-block;
+    padding-right: 2px;
+}
+
+
+/* Header */
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    min-height: 50px;
+    background-color: #daa520;
+    border: 2px dashed black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    min-height: 80px;
+    background-color: #add8e6;
+}
+
+#logo {
+    padding-left: 10px;
+}
+
