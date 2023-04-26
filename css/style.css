@@ -127,6 +127,8 @@ main > div {
 .container-footer {
     padding-top: 10px;
     padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
 }
 
 .footer-first-column {
@@ -143,7 +145,19 @@ main > div {
     border: 2px dashed white;
 }
 
-.container-footer {
+footer {
     background-color: #23272a;
+}
+
+
+.registracion{ 
+    background-color: #7fffd4;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    text-decoration: none;
 }
 
