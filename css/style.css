@@ -12,6 +12,7 @@
 :root {
     --color-blue: #1e90ff;
     --color-pink: #ffc0cb;
+    --color-grey: #d3d3d3;
 }
 
 /* Utilities */
@@ -36,6 +37,20 @@ li {
     padding-right: 10px;
 }
 
+.small-column {
+    flex-basis: calc(100% / 3);
+    background-color: var(--color-pink);
+}
+
+.small-column, .big-column {
+    min-height: 500px;
+    border: 2px dashed black;
+}
+
+.big-column {
+    flex-basis: calc(100% / 3 * 2);
+    background-color: var(--color-blue);
+}
 
 /* Header */
 
@@ -96,21 +111,8 @@ ul {
     padding: 40px 0px;
 }
 
-.second-section {
-    display: flex;
-    min-height: 500px;
+.bkg-third-section {
+    background-color: var(--color-grey);
+    padding: 40px 0px;
 }
 
-.second-section div:first-child {
-    min-height: 500px;
-    flex-basis: calc(100% / 3 * 2);
-    background-color: var(--color-blue);
-    
-}
-
-.second-section div:last-child {
-    min-height: 500px;
-    flex-basis: calc(100% / 3);
-    background-color: var(--color-pink);
-}
-    
