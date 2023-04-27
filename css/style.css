@@ -133,8 +133,13 @@ main > div {
 .container-footer {
     padding-top: 10px;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
     margin-bottom: 20px;
+}
+
+.container-footer > div {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
 }
 
 .footer-first-column {
